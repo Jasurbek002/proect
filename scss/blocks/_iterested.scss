@@ -1,0 +1,106 @@
+.interested{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    top: 200px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+    &__titel{
+        position: absolute;
+        width: 350px;
+        font-family:"Ibarra Real Nova";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        /* or 105% */
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__button{
+        position:absolute;
+        margin: 6% 0% 0% 75%;
+        width: 162px;
+        height: 48px;
+        a{
+            text-decoration: none;
+            color:rgba(51, 50, 61, 1);
+
+        }
+    }
+}
+@media screen and (max-width: 926px){
+    .interested{
+        position: relative;
+        width: 90%;
+        height: 150px;
+        top: 200px;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    
+        &__titel{
+            position: absolute;
+            width: 350px;
+            font-family:"Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+    
+        &__button{
+            position:absolute;
+            margin: 6% 0% 0% 75%;
+            width: 162px;
+            height: 48px;
+            a{
+                text-decoration: none;
+                color:rgba(51, 50, 61, 1);
+    
+            }
+        }
+    }
+}
+@media screen and (max-width: 481px){
+    .interested{
+       
+        width: 90%;
+        height: 150px;
+        top: 200px;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    
+        &__titel{
+            margin: 0% 5% 0% 5%;
+            width: 350px;
+            font-family:"Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+    
+        &__button{
+         
+            margin: 30% 30% 0% 30%;
+            width: 162px;
+            height: 48px;
+            a{
+                text-decoration: none;
+                color:rgba(51, 50, 61, 1);
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.hearor{
+    width: 90%;
+    height: 600px;
+    display: block;
+    background-image: url("/img/bacimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &__card{
+        position: absolute;
+        // border: 1px solid black;
+        margin-top: 400px;
+        background-color:white ;
+        width: 390px;
+        height: 200px;
+       &__text{
+        font-family: "Ibarra Real Nova";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        /* or 100% */
+        letter-spacing: -0.446429px;
+        color: #33323D;
+       }
+    }
+
+}
+@media screen and (max-width: 926px) {
+    .hearor{
+        width: 90%;
+        height: 600px;
+        display: flex;
+        background-image: url("/img/bacimg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        &__card{
+            position: absolute;
+            // border: 1px solid black;
+            margin-top: 400px;
+            background-color:white ;
+            width: 390px;
+            height: 200px;
+           &__text{
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 50px;
+            /* or 100% */
+            letter-spacing: -0.446429px;
+            color: #33323D;
+           }
+        }
+    
+    }
+}
+@media screen and (max-width:481px) {
+    .hearor{
+        max-width: 90%;
+        height: 600px;
+        display: flex;
+        background-image: url("/img/bacimg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+        &__card{
+            position: absolute;
+            // border: 1px solid black;
+            margin-top: 400px;
+            background-color:white ;
+            width: 90%;
+            height: 250px;
+           &__text{
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 50px;
+            /* or 100% */
+            letter-spacing: -0.446429px;
+            color: #33323D;
+           }
+        }
+    
+    }
+}

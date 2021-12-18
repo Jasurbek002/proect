@@ -1,0 +1,227 @@
+.about{
+    top: 100px;
+    position: relative;
+    display:block;
+    width: 90%;
+    height: 600px;
+    &::after{
+        
+        margin-top: 0px;
+        position: absolute;
+        display:block;
+        width: 40%;
+        height: 600px;
+        content: "";
+        background:url("/img/rasm.png") ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    &::before{
+        margin-top: 580px;
+        display: block;
+        content: "";
+    }
+    &> span{
+        margin:20px;
+    }
+    &::before , &> span{
+        
+        right: 70px;
+        position: absolute;
+        width: 350px;
+        height: 2px;
+        background-color:rgba(51, 50, 61, 1) ;
+    }
+    &__titel{
+        position:absolute;
+        margin: 6% 0% 2% 60%;
+        font-family: "Ibarra Real Nova";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        /* identical to box height, or 105% */
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+    &__text{
+        position:absolute;
+        margin: 12% 0% 0% 60%;
+        width: 350px;
+        height: 360px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        /* or 187% */
+        color: #28272e;
+        mix-blend-mode: normal;
+        opacity  : 0.8;
+    }
+    &__button{
+        position:absolute;
+        margin: 42% 0% 2% 60%;
+        width: 162px;
+        height: 48px;
+        a{
+            text-decoration: none;
+            color:rgba(51, 50, 61, 1);
+
+        }
+    }
+}
+@media screen and (max-width: 926px){
+    .about{
+        top: 100px;
+        // position: relative;
+        display:block;
+        width: 90%;
+        height: 600px;
+        &::after{
+            
+            margin-top: 0px;
+            // position: absolute;
+            display:block;
+            width: 37%;
+            height: 600px;
+            content: "";
+            background:url("/img/rasm.png") ;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &::before{
+            margin-top: 580px;
+            display: block;
+            content: "";
+        }
+
+        &> span{
+            margin:20px;
+        }
+
+        &::before , &> span{
+            
+            right: 50px;
+            position: absolute;
+            width: 350px;
+            height: 2px;
+            background-color:rgba(51, 50, 61, 1) ;
+        }
+
+        &__titel{
+            // position:absolute;
+            margin: 6% 0% 2% 45%;
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+        &__text{
+            // position:absolute;
+            margin: 12% 0% 0% 45%;
+            width: 350px;
+            height: 360px;
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* or 187% */
+            color: #28272e;
+            mix-blend-mode: normal;
+            opacity  : 0.8;
+        }
+        &__button{
+            // position:absolute;
+            margin: 65% 0% 2% 45%;
+            width: 162px;
+            height: 48px;
+            a{
+                text-decoration: none;
+                color:rgba(51, 50, 61, 1);
+    
+            }
+        }
+    }
+}
+@media screen and (max-width: 652px){
+    .about{
+        top: 100px;
+        // position: relative;
+        display:block;
+        width: 90%;
+        height: 1200px;
+        &::after{
+            
+            margin: 0 5%;
+            position: absolute;
+            display:block;
+            width: 90%;
+            height: 500px;
+            content: "";
+            background:url("/img/rasm.png") ;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &::before{
+            margin-top: 580px;
+            display:none;
+            content: "";
+        }
+
+        &> span{
+            display: none;
+            margin:20px;
+        }
+
+        &::before , &> span{
+            
+            right: 50px;
+            position: absolute;
+            width: 350px;
+            height: 2px;
+            background-color:rgba(51, 50, 61, 1) ;
+        }
+
+        &__titel{
+            margin: 150% 20% 2% 30%;
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+        &__text{
+            margin: 170% 5% 0% 5%;
+            width: 90%;
+            height: 360px;
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* or 187% */
+            color: #28272e;
+            mix-blend-mode: normal;
+            opacity  : 0.8;
+        }
+        &__button{
+            margin: 270% 30% 2% 30%;
+            width: 162px;
+            height: 48px;
+            a{
+                text-decoration: none;
+                color:rgba(51, 50, 61, 1);
+    
+            }
+        }
+    }
+}
